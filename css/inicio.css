@@ -1,0 +1,25 @@
+.jogar{
+    margin-top: 120px;
+    padding: 120px 0 366px 0;
+}
+
+.jogar h1{
+    max-width: 248px;
+    text-align: center;
+    margin: 0 auto;
+    color: #20986a;
+}
+
+.form_jogar{
+    max-width: 350px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.jogar_bolas li input{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    border: 3px solid #8fcbb2;;
+}
