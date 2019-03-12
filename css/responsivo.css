@@ -9,7 +9,6 @@
 }
 
 
-
 /*Grid*/
 
 .grid-1		{width: 28px;}
@@ -29,74 +28,6 @@
 .grid-15	{width: 700px;}
 .grid-16	{width: 748px;}
 .grid-1-3	{width: 236px;}
-
-
-
-/*Qualidade*/
-
-.qualidade:after{
-
-	right: 80px;
-
-}
-
-.qualidade_lista li{
-
-	padding-top: 30px;
-
-
-}
-
-
-
-/*Footer*/
-
-.footer_redes ul li a{
-
-	border: 3px solid #FEC63E;
-	display: block;
-	padding: 6px;
-
-}
-
-.footer_redes ul li a img{
-
-	width: 26px;
-	height: 26px;
-
-}
-
-/*Produtos*/
-
-.produto_item h2{
-
-	top: -160px;
-	margin-bottom: -56px;
-
-}
-
-.produto_icone{
-
-	padding: 48px 0;
-
-}
-
-.produto_info p{
-
-	font-size: 14px;
-	line-height: 20px;
-	height: 122px;
-	padding: 20px 30px;
-
-}
-
-.produto_info ul li {
-
-    width: 181px;
-
-}
-
-
 
 
 }/*Final stylo para  Tablets*/
@@ -131,261 +62,49 @@
 
 }
 
-
-
 /*Header*/
 .header{
 
 	position: relative;
-	padding: 0px;
-
-}
-
-.header{
-
+	padding: 20px 0 0 0;
 	margin: 0 auto 10px auto;
-
+	text-align: center;
 }
 
-.header_menu{
+.header .menu_principal_lista{
+	text-align: center;
+}
+/* Final Header */
 
-	text-align:  center;
+/* Início */
+/* Jogar */
 
+.jogar{
+	margin-top: -40px;
 }
 
-.header_menu ul li{
-
-	margin: 5px;
-
+.jogar_area_jogos h1{
+	font-size: 40px;
 }
 
-
-.header_menu ul li a{
-
-	border: 4px solid #000;
-	width: 136px;
-	display: block;
-	float: left;
-
+.form_jogar .jogar_bolas li input{
+	width: 40px;
+    height: 40px;
 }
 
-
-.header_menu ul li .menu_ativo{
-
-	border-color: #FFF;
-	color: #FFF;
-
-}
-
-.container img:first-child{
-
-	margin: 10px auto 10px auto;
-
-}
-
-
-/*Introdução*/
-
-.introducao h1{
-
-
-	font-size: 36px;
-	margin-top: 30px;
-
-}
-
-.introducao{
-
-	margin-top: -10px;
-	padding-top: 20px;
-	background: url("../img/bg-mobile.jpg") no-repeat center;
-	background-size: cover;
-
-}
-
-.introducao-interna{
-
-	margin-top: -10px;
-
-}
-
-/*Call*/
-.call{
-
-	padding-top: 10px;
-
-}
-
-/*Qualidade Home*/
-
-.qualidade:after{
-
+.arte{
 	display: none;
-
 }
 
+/* Final Jogar */
 
-.qualidade_lista li{
-
-	padding: 0px;
-
-}
-
-/*Sobre*/
-
-.missao_sobre .subtitulo-interno{
-
-	padding: 0 5px;
-
-}
-
-.missao_sobre p{
-
-	font-size: 14px;
-	line-height: 20px;
-	padding-right: 0px;
-	padding: 0 5px;
-
-}
-
-.missao_sobre ul li{
-
-	font-size: 14px;
-	line-height:  25px;
-	padding: 0 10px;
-
-
-}
-
-
-/*Produtos*/
-
-.produto_item h2{
-
-	top: -105px;
-	margin-bottom: -68px;
-
-}
-
-
-.produto_icone{
-
-	padding: 41px 0;
-
-}
-
-.produto_info p{
-
-	font-size: 14px;
-	line-height: 20px;
-	height: auto;
-	padding: 20px 30px;
-
-}
-
-.produto_info ul li{
-
-	width: 149px;
-
-}
-
-/*Portfolio*/
-.portfolio{
-
-	width: 100%;
-
-}
-
-
-/*Orçamento*/
-
-.form{
-
-	padding-right: 0px;
-
-}
-
-.orcamento_dados{
-
+/* Footer */
+.footer{
 	margin-top: 40px;
-
+	margin-bottom: 40px;
+	text-align: center;
 }
-
-.orcamento_dados ul{
-
-	padding-right: 0px;
-
-}
-
-/*Contato*/
-
-.contato_form{
-
-	padding-right: 0px;
-
-}
-
-.contato_dados{
-
-	padding-top: 40px;
-
-}
-
-.contato_dados ul  li{
-
-	padding: 2px 10px;
-	margin-left: -15px;
-
-}
-
-.contato_dados ul  li:first-child{
-
-	margin-left: -10px;
-
-}
-
-.contato_dados ul  li img{
-
-	width: 20px;
-	height: 20px;
-
-}
-
-/*Footer*/
-
-footer h3{
-
-	padding: 0 10px;
-
-}
-
-footer p, .footer_contato li{
-
-	padding: 0 10px;
-
-}
-
-.footer_redes ul li:first-child{
-
-	margin-left: 10px;
-
-}
-
-.footer_redes ul li a{
-
-	border: 3px solid #FEC63E;
-	display: block;
-	padding: 2px 10px;
-	
-
-}
-
-.footer_redes ul li a img{
-
-	width: 20px;
-	height: 20px;
-
-}
+/* Final Inicío */
 
 
 }/*Final Stylo para smartphones*/
