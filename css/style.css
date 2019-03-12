@@ -58,14 +58,9 @@ ul li{
     cursor: pointer;
 }
 
-.footer{
-    padding-top: 60px;
-}
-
-
 .copyright{
     font-size: 14px;
     line-height: 20px;
-    color: #fff;
+    color: #8fcbb2;
 }
 
