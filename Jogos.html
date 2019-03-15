@@ -10,11 +10,11 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/grid.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/jogos.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/responsivo.css">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Laila" rel="stylesheet">
-
     <!-- JS -->
     <script src="js/libs/modernizr.custom.45655.js"></script>
     <script src="main.js"></script>
@@ -27,7 +27,7 @@
             </div>
             <nav class="menu_principal grid-10">
                 <ul class="menu_principal_lista">
-                    <li><a href="index.html">inicio</a</li>
+                    <li><a href="index.html">inicio</a></li>
                     <li><a href="jogos.html">jogos</a></li>
                     <li><a href="#">mega-sena</a></li>
                 </ul>
@@ -35,41 +35,37 @@
         </div>
     </header>
     <section class="jogos">
-        <h2>Jogos</h2>
-        <table class="tabela-jogos">
-            <thead>
-                <tr>
-                    <th>Concuro</th>
-                    <th>1ª bola</th>
-                    <th>2ª bola</th>
-                    <th>3ª bola</th>
-                    <th>4ª bola</th>
-                    <th>5ª bola</th>
-                    <th>6ª bola</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>                                              
-            </tbody>
-        </table>
+        <div class="container">
+            <section class="jogos_resultados grid-8">
+                <h2 class="titulo-interno">Jogos</h2>
+                <table id="DataTable">
+                    <thead>
+                        <tr>
+                            <th>Column 1</th>
+                            <th>Column 2</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Row 1 Data 1</td>
+                            <td>Row 1 Data 2</td>
+                        </tr>
+                        <tr>
+                            <td>Row 2 Data 1</td>
+                            <td>Row 2 Data 2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </div>
     </section>
-    <footer class="footer container">
-        <span class="copyright">&copy; antonioratero - 2019</span>
-    </footer>
-    <!--Javascript-->
-	<!--Jquery-->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-	<script>
-	window.jQuery || document.write('<script src="js/libs/jquery-3.2.1.min.js"><\/script>')
-	</script>
-	<script src="js/plugins.js"></script>
-	<script src="js/main.js"></script>
+    <!-- DataTable -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.css">
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+    <script>
+        $(document).ready( function () {
+            $('#DataTable').DataTable();
+        } );
+    </script>
 </body>
 </html>

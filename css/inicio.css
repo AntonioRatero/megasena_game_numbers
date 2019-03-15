@@ -10,11 +10,9 @@
     text-align: center;
 }
 
-.jogar_area_jogos h1{
-    font-size: 60px;
+.jogar_area_jogos .titulo{
     max-width: 250px;
     margin: 20px auto 0 auto;
-    color: #20986a;
 }
 
 .jogar_bolas{
