@@ -3,14 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Início</title>
+    <title>Jogos</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- CSS -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/grid.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/inicio.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/responsivo.css">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -28,40 +27,43 @@
             </div>
             <nav class="menu_principal grid-10">
                 <ul class="menu_principal_lista">
-                    <li><a href="#">inicio</a</li>
-                    <li><a href="#">jogos</a></li>
+                    <li><a href="index.html">inicio</a</li>
+                    <li><a href="jogos.html">jogos</a></li>
                     <li><a href="#">mega-sena</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <section class="jogar">
-        <div class="container">
-            <div class="jogar_area_jogos grid-8">
-                <h1 class="animated">Faça seu Jogo</h1>
-                <form action="" class="form_jogar">
-                    <ul class="jogar_bolas">
-                        <li><input type="text" maxlength="2" min="1" max="60"></li>
-                        <li><input type="text" maxlength="2" min="1" max="60"></li>
-                        <li><input type="text" maxlength="2" min="1" max="60"></li>
-                        <li><input type="text" maxlength="2" min="1" max="60"></li>
-                        <li><input type="text" maxlength="2" min="1" max="60"></li>
-                        <li><input type="text" maxlength="2" min="1" max="60"></li>
-                    </ul>
-                </form>
-                <div class="btn">Feito</div>
-            </div>
-            <div class="arte grid-8">
-                <img src="img/inicio/bg-inicio.png" alt="Arte Início">
-            </div>
-        </div>
+    <section class="jogos">
+        <h2>Jogos</h2>
+        <table class="tabela-jogos">
+            <thead>
+                <tr>
+                    <th>Concuro</th>
+                    <th>1ª bola</th>
+                    <th>2ª bola</th>
+                    <th>3ª bola</th>
+                    <th>4ª bola</th>
+                    <th>5ª bola</th>
+                    <th>6ª bola</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>                                              
+            </tbody>
+        </table>
     </section>
     <footer class="footer container">
         <span class="copyright">&copy; antonioratero - 2019</span>
     </footer>
-
-    	<!--Javascript-->
-
+    <!--Javascript-->
 	<!--Jquery-->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script>
