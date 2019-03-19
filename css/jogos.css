@@ -16,3 +16,37 @@
 .tabela-jogos{
     margin: 0 auto;
 }
+
+/* Datalhes */
+
+.jogos_detalhes{
+    padding-left: 200px;
+}
+
+.concurso, .bolas-sorte{
+    border-radius: 4px;
+    padding: 20px 0 40px 20px;
+    background-color: #E0F0E6;
+    height: 200px;
+}
+
+.bolas-sorte{
+    margin-top: 20px;
+}
+
+.concurso h4, .bolas-sorte h4{
+    color: #20986a;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.lista-concurso li{
+    display: block;
+    line-height: 21px;
+}
+
+.lista-concurso .lista-curso_separador{
+    margin-bottom: 20px;
+}
