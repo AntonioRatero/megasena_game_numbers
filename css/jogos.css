@@ -20,7 +20,7 @@
 /* Datalhes */
 
 .jogos_detalhes{
-    padding-left: 200px;
+    padding-left:40px;
 }
 
 .concurso, .bolas-sorte{
@@ -40,6 +40,14 @@
     font-size: 18px;
     margin-bottom: 20px;
     letter-spacing: 1px;
+}
+
+.bolas-sorte .jogar_bolas input{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    border: 3px solid #8fcbb2;
 }
 
 .lista-concurso li{

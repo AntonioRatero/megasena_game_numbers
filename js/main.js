@@ -1,3 +1,23 @@
+
+// Tabs Jquery
+
+$(document).ready(function(){
+	
+	$('ul.tabs li').click(function(){
+		var tab_id = $(this).attr('data-tab');
+
+		$('ul.tabs li').removeClass('current');
+		$('.tab-content').removeClass('current');
+
+		$('ul.tabs li').css("border-top","none")
+		$(this).css("border-top","2px solid #20986a")
+
+		$(this).addClass('current');
+		$("#"+tab_id).addClass('current');
+	})
+
+})
+
 //Animação
 
 Visibility.onVisible(function(){
