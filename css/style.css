@@ -4,6 +4,10 @@ body *{
     font-family: 'Lato', sans-serif;
 }
 
+.footer{
+  padding-bottom: 20px;
+}
+
 *:focus {
   outline: none;
 }
@@ -82,8 +86,11 @@ ul li{
 ul.tabs{
 	margin: 0px;
 	padding: 0px;
-	list-style: none;
+  list-style: none;
+  position: relative;
+  top: 2px;
 }
+
 ul.tabs li{
 	background: none;
 	color: #222;
@@ -101,18 +108,25 @@ ul.tabs li.current{
   -moz-border-radius-topright: 4px;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
+  border-top: 2px solid #20986a;
+  border-left: 2px solid #20986a;
+  border-right: 2px solid #20986a;
+}
+
+.jogos_resultados ul.tabs li{
+  font-size: 14px;
 }
 
 .tab-content{
 	display: none;
 	background: #ededed;
-	padding: 20px 10px;
+  padding: 20px 10px;
+  border-top: 2px solid #20986a;
 }
 
 .tab-content.current{
 	display: inherit;
 }
-
 
 /* Animação */
 
