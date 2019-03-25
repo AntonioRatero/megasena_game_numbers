@@ -124,12 +124,15 @@ ul.tabs li.current{
   border-top: 2px solid #20986a;
 }
 
+<<<<<<< HEAD
 /* Tabelas */
 
 table{
   width: 100%;
 }
 
+=======
+>>>>>>> c54b1dd65b5ab1dc1e0d77d4919ad52af8a9d960
 .tab-content.current{
 	display: inherit;
 }
