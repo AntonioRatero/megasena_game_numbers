@@ -3,7 +3,8 @@
 .jogos{
     width: 100%;
     margin-top: 120px;
-    padding-top: 60px;
+    padding: 60px 0 60px 0;
+
 }
 
 .titulo-interno{
@@ -15,4 +16,66 @@
 
 .tabela-jogos{
     margin: 0 auto;
+}
+
+table.datatable-jogos tbody tr td {
+    background-color: #f9f9f9 !important;
+}
+
+table.datatable-jogos tbody tr:nth-child(even) td{
+    background-color: #fff !important;
+}
+
+table.datatable-jogos tbody tr:hover td{
+    background-color: #E0F0E6 !important;
+}
+
+.dataTables_info, .paginate_button{
+    font-size: 14px;
+}
+
+/* Datalhes */
+
+.jogos_detalhes{
+    padding-left:40px;
+}
+
+.concurso, .bolas-sorte{
+    border-radius: 4px;
+    padding: 20px 0 40px 20px;
+    background-color: #E0F0E6;
+    height: 200px;
+}
+
+.concurso{
+    background: #E0F0E6 url(../img/jogos/bg-trevo.png) no-repeat right top 30px;
+}
+
+.bolas-sorte{
+    margin-top: 20px;
+}
+
+.concurso h4, .bolas-sorte h4{
+    color: #20986a;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.bolas-sorte .jogar_bolas input{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    border: 3px solid #8fcbb2;
+}
+
+.lista-concurso li{
+    display: block;
+    line-height: 21px;
+}
+
+.lista-concurso .lista-curso_separador{
+    margin-bottom: 20px;
 }
