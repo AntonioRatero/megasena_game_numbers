@@ -19,11 +19,7 @@ $(document).ready(function() {
             "lengthMenu": "_MENU_ Jogos por página",
             "zeroRecords": "Ops! Nenhum jogo encontrado...",
             "info": "Vendo _PAGE_ de _PAGES_",
-			"infoEmpty": "Ops! Nenhum Jogo disponível...",
-			"paginate": {
-			"next": "Proxima",
-			"previous": "Anterior"
-			}
+			"infoEmpty": "Vendo 0 de 0"
 		},
 		"infoFiltered": "(filtered from _MAX_ total records)",
 		responsive: true
