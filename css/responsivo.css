@@ -137,8 +137,26 @@
 	font-size: 40px;
 }
 
+table.dataTable > tbody > tr.child span.dtr-title {
+    min-width: 10px !important;
+}
+
+
+table.dataTable > tbody > tr.child span.dtr-data {
+    margin-right: 20px;
+}
+
+
 .titulo-interno {
     margin-bottom: 40px;
+}
+
+.jogos_detalhes{
+    padding: 20px 0 20px 0;
+}
+
+.concurso{
+	width: 100%;
 }
 
 /* Final  Página Jogos */
