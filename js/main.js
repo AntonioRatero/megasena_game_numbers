@@ -1,6 +1,4 @@
-
 // Tabs Jquery
-
 $(document).ready(function(){
 	$('ul.tabs li').click(function(){
 		var tab_id = $(this).attr('data-tab');
@@ -27,7 +25,6 @@ $(document).ready(function() {
 });
 
 //Animação
-
 Visibility.onVisible(function(){
 	setTimeout(function () {
 		$(".introducao h1").addClass("animated fadeInDown");
