@@ -11,7 +11,7 @@ $(document).ready(function(){
 
 // DataTable
 $(document).ready(function() {
-	$('#DataTable1, #DataTable2').DataTable({
+	$('#DataTable1').DataTable({
 		"searching": false,
 		"language": {
             "lengthMenu": "_MENU_ Jogos por página",
@@ -21,6 +21,25 @@ $(document).ready(function() {
 		},
 		"infoFiltered": "(filtered from _MAX_ total records)",
 		responsive: true
+	});
+
+	// Ativa o Segundo DataTable
+	var sentinela = false;
+	$(".segunda-tab").on("click",function(){
+		if(sentinela == false){
+			sentinela = true;
+			$('#DataTable2').DataTable({
+				"searching": false,
+				"language": {
+					"lengthMenu": "_MENU_ Jogos por página",
+					"zeroRecords": "Ops! Nenhum jogo encontrado...",
+					"info": "Vendo _PAGE_ de _PAGES_",
+					"infoEmpty": "Vendo 0 de 0"
+				},
+				"infoFiltered": "(filtered from _MAX_ total records)",
+				responsive: true
+			});
+		}
 	});
 });
 

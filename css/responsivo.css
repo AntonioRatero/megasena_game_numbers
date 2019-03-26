@@ -133,7 +133,7 @@
 	margin-top: -40px;
 }
 
-.jogos .jogos_resultados h2{
+.jogos .jogos_resultados h2, .jogos .jogos_detalhes h2{
 	font-size: 40px;
 }
 
@@ -143,6 +143,22 @@ table.dataTable > tbody > tr.child span.dtr-title {
 
 table.dataTable > tbody > tr.child span.dtr-data {
     margin-right: 20px;
+}
+
+#DataTable1 tbody tr.parent:hover + tr > td{
+    background-color: #20986a !important;
+    color: #fff;
+}
+
+#DataTable1 > tbody > tr.child ul.dtr-details > li {
+    border-bottom: none;
+    padding: 0 0;
+	padding-top: 0;
+}
+
+#DataTable1 tbody tr.parent:hover + tr > td{
+    background-color: #20986a !important;
+    color: #fff;
 }
 
 

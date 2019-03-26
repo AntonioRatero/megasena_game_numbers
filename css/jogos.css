@@ -14,25 +14,27 @@
 
 /* Tabela Jogos */
 
-.tabela-jogos{
-    margin: 0 auto;
-}
 
-table.datatable-jogos tbody tr td {
+
+#DataTable1 tbody tr td, #DataTable2 tbody tr td{
     background-color: #f9f9f9 !important;
+    text-align: center !important;
 }
 
-table.datatable-jogos tbody tr:nth-child(even) td{
+#DataTable1 tbody tr:nth-child(even) td, #DataTable2 tbody tr:nth-child(even) td{
     background-color: #fff !important;
 }
 
-table.datatable-jogos tbody tr:hover td{
-    background-color: #E0F0E6 !important;
+#DataTable1 tbody tr:hover td, #DataTable2 tbody tr:hover td{
+    background-color: #20986a !important;
+    color: #fff;
 }
 
 .dataTables_info, .paginate_button{
     font-size: 14px;
 }
+
+
 
 /* Datalhes */
 
