@@ -124,6 +124,12 @@ ul.tabs li.current{
   border-top: 2px solid #20986a;
 }
 
+/* Tabelas */
+
+table{
+  width: 100%;
+}
+
 .tab-content.current{
 	display: inherit;
 }
