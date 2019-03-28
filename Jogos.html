@@ -163,10 +163,22 @@
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
     <script>
+
     // API Mega-Sena
-    $.getJSON("script.php", "campo1=dado1&campo2=dado2&campo3=dado3", function( data ) {
-        console.log(data);
-    });
-        </script>
+    res.header("Access-Control-Allow-Origin", "*");
+res.header("Access-Control-Allow-Headers", "Origin, X-Request-Width, Content-Type, Accept");
+    var urlApi = "https://confiraloterias.com.br/api/json/?loteria=megasena&token=9IUMsXrTtpZMZQv";
+    $.ajax({
+                type: 'POST',
+                url: urlApi,
+                data: {},
+                success: function (retorno) {
+                    alert(retorno);
+                },
+                error: function (ex) {
+                    bootbox.alert('Falhou! Tente novamente.' + ex);
+                }
+            });
+    </script>
 </body>
 </html>
