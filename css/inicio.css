@@ -27,4 +27,12 @@
     border: 3px solid #8fcbb2;
     
 }
+
+.btn-feito:hover
+{
+    -webkit-transform: scale(1.1) !important;
+    -ms-transform: scale(1.1) !important;
+    transform: scale(1.1) !important;
+}
+
 /* Final Jogar */

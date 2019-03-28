@@ -46,22 +46,24 @@ $(document).ready(function() {
 //Animação
 Visibility.onVisible(function(){
 	setTimeout(function () {
-		$(".introducao h1").addClass("animated fadeInDown");
+		$(".js .jogar_area_jogos .titulo, .js .arte img").addClass("animated fadeInDown");
 	}, 400);
 	setTimeout(function () {
-		$(".introducao blockquote").addClass("animated fadeInDown");
+		$(".js .form_jogar").addClass("animated fadeInDown");
 	}, 800);
 	setTimeout(function () {
-		$(".introducao a").addClass("animated fadeInDown");
+		$(".js .btn-feito").addClass("animated fadeInDown");
 	}, 1200);
+
+
 	setTimeout(function () {
-		$(".animar").addClass("animated fadeInDown");
-	}, 1600);	
-	setTimeout(function () {
-		$(".introducao-interna h1").addClass("animated fadeInDown");
+		$(".js .jogos_resultados .titulo-interno, .js .jogos_detalhes .titulo-interno").addClass("animated fadeInDown");
 	}, 400);
 	setTimeout(function () {
-		$(".introducao-interna p").addClass("animated fadeInDown");
-	}, 800);		
+		$(".js .jogos_resultados .container-tabs, .js .jogos_detalhes .concurso").addClass("animated fadeInDown");
+	}, 800);
+	setTimeout(function () {
+		$(".js .jogos_detalhes .bolas-sorte").addClass("animated fadeInDown");
+	}, 1200);
 });	
 

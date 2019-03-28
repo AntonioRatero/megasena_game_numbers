@@ -2,7 +2,6 @@
 
 body *{
     font-family: 'Lato', sans-serif;
-    transition: all .5s ease;
 }
 
 .footer{
@@ -189,14 +188,16 @@ a.before:hover:before,a.after:hover:after{
   width:100%;
 }
 
+/* Apresentação down */
 
-
-.js .introducao h1, .js .introducao blockquote, .js .introducao a, .js .animar, .js .introducao-interna h1, .js .introducao-interna p{
-
-	opacity: 0;
-
+.js .jogar_area_jogos .titulo,.js .form_jogar, 
+.js .jogar_area_jogos .btn-feito, 
+.js .arte img, .js .jogos_resultados .titulo-interno,
+.js .jogos_resultados .container-tabs, .js .jogos_detalhes 
+.titulo-interno, .js .jogos_detalhes .concurso, 
+.js .jogos_detalhes .bolas-sorte{
+  opacity: 0;
 }
-
 
 .animated {
   -webkit-animation-duration: 1s;

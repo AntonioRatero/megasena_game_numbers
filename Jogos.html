@@ -22,7 +22,7 @@
     <header class="header">
         <div class="container">
             <div class="logo grid-6">
-                <img src="img/Mega-Sena-logo.png" alt="Logo mega">
+                <a href="index.html" class="third after"><img src="img/Mega-Sena-logo.png" alt="Logo mega"></a>
             </div>
             <nav class="menu_principal grid-10">
                 <ul class="menu_principal_lista wrapper">
@@ -38,80 +38,82 @@
             <section class="jogos_resultados grid-9">
                 <h2 class="titulo-interno">Jogos</h2>
                 <!-- Tabs Jquery -->
-                <ul class="tabs tab-tabelas-jogos">
-                    <li class="tab-link current primeira-tab" data-tab="tab-1">Oficiais</li>
-                    <li class="tab-link segunda-tab" data-tab="tab-2">Meus Jogos</li>
-                </ul>
-                <div id="tab-1" class="tab-content current">
-                    <table id="DataTable1" class="display responsive nowrap">
-                        <thead>
-                            <tr>
-                                <th>Concurso</th>
-                                <th>1º</th>
-                                <th>2º</th>
-                                <th>3º</th>
-                                <th>4º</th>
-                                <th>5º</th>
-                                <th>6º</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>2136</td>
-                                <td>01</td>
-                                <td>08</td>
-                                <td>11</td>
-                                <td>22</td>
-                                <td>30</td>
-                                <td>35</td>
-                            </tr>
-                            <tr>
-                                <td>2136</td>
-                                <td>01</td>
-                                <td>08</td>
-                                <td>11</td>
-                                <td>22</td>
-                                <td>30</td>
-                                <td>35</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div id="tab-2" class="tab-content">
-                    <table id="DataTable2" class="display responsive nowrap">
-                        <thead>
-                            <tr>
-                                <th>Concurso</th>
-                                <th>1º</th>
-                                <th>2º</th>
-                                <th>3º</th>
-                                <th>4º</th>
-                                <th>5º</th>
-                                <th>6º</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>2136</td>
-                                <td>01</td>
-                                <td>08</td>
-                                <td>11</td>
-                                <td>22</td>
-                                <td>30</td>
-                                <td>35</td>
-                            </tr>
-                            <tr>
-                                <td>2136</td>
-                                <td>01</td>
-                                <td>08</td>
-                                <td>11</td>
-                                <td>22</td>
-                                <td>30</td>
-                                <td>35</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+                <div class="container-tabs">
+                    <ul class="tabs tab-tabelas-jogos">
+                        <li class="tab-link current primeira-tab" data-tab="tab-1">Oficiais</li>
+                        <li class="tab-link segunda-tab" data-tab="tab-2">Meus Jogos</li>
+                    </ul>
+                    <div id="tab-1" class="tab-content current">
+                        <table id="DataTable1" class="display responsive nowrap">
+                            <thead>
+                                <tr>
+                                    <th>Concurso</th>
+                                    <th>1º</th>
+                                    <th>2º</th>
+                                    <th>3º</th>
+                                    <th>4º</th>
+                                    <th>5º</th>
+                                    <th>6º</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2136</td>
+                                    <td>01</td>
+                                    <td>08</td>
+                                    <td>11</td>
+                                    <td>22</td>
+                                    <td>30</td>
+                                    <td>35</td>
+                                </tr>
+                                <tr>
+                                    <td>2136</td>
+                                    <td>01</td>
+                                    <td>08</td>
+                                    <td>11</td>
+                                    <td>22</td>
+                                    <td>30</td>
+                                    <td>35</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div id="tab-2" class="tab-content">
+                        <table id="DataTable2" class="display responsive nowrap">
+                            <thead>
+                                <tr>
+                                    <th>Concurso</th>
+                                    <th>1º</th>
+                                    <th>2º</th>
+                                    <th>3º</th>
+                                    <th>4º</th>
+                                    <th>5º</th>
+                                    <th>6º</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2136</td>
+                                    <td>01</td>
+                                    <td>08</td>
+                                    <td>11</td>
+                                    <td>22</td>
+                                    <td>30</td>
+                                    <td>35</td>
+                                </tr>
+                                <tr>
+                                    <td>2136</td>
+                                    <td>01</td>
+                                    <td>08</td>
+                                    <td>11</td>
+                                    <td>22</td>
+                                    <td>30</td>
+                                    <td>35</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+            </div>
             </section>
             <section class="jogos_detalhes grid-7">
                 <h2 class="titulo-interno">Detalhes</h2>
@@ -158,6 +160,13 @@
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/buttons/1.5.6/js/dataTables.buttons.min.js"></script>
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/select/1.3.0/js/dataTables.select.min.js"></script>
     <script type="text/javascript" charset="utf8" src="https://editor.datatables.net/extensions/Editor/js/dataTables.editor.min.js"></script>
-    <script type="text/javascript" charset="utf8" src="js/main.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+    // API Mega-Sena
+    $.getJSON("script.php", "campo1=dado1&campo2=dado2&campo3=dado3", function( data ) {
+        console.log(data);
+    });
+        </script>
 </body>
 </html>
