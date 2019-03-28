@@ -138,6 +138,14 @@ table{
 	display: inherit;
 }
 
+/* Modernizr */
+
+.js .introducao h1, .js .introducao blockquote, .js .introducao a, .js .animar, .js .introducao-interna h1, .js .introducao-interna p{
+
+	opacity: 0;
+
+}
+
 /* Animação */
 
 /* Links */

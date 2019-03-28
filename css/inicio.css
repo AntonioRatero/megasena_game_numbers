@@ -6,6 +6,10 @@
     padding: 60px 0 20px 0; /*120+60 = 180px*/
 }
 
+.jogar_area_jogos {
+    transition:0.5s color ease;
+}
+
 .jogar_area_jogos{
     text-align: center;
 }
