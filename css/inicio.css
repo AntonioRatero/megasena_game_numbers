@@ -32,11 +32,11 @@
     
 }
 
-.btn-feito:hover
+.btn-feito:hover button
 {
-    -webkit-transform: scale(1.1) !important;
-    -ms-transform: scale(1.1) !important;
-    transform: scale(1.1) !important;
+    -webkit-transform: scale(5);
+    -ms-transform: scale(5);
+    transform: scale(5);
 }
 
 /* Final Jogar */
