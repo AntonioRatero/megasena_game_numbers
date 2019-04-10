@@ -135,7 +135,7 @@ table{
 }
 
 .tab-content.current{
-	display: inherit;
+  display: inherit;
 }
 
 /* Modernizr */
